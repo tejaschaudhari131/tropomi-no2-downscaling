@@ -1,5 +1,10 @@
 # High-Resolution Air Quality Mapping Using a Hybrid Deep Learning Model
 
+Abstract:
+This project presents a hybrid deep learning model for generating high-resolution (1 km x 1 km) NO2 pollution maps. Leveraging satellite data from TROPOMI, ground-based measurements, and meteorological inputs, the model aims to improve spatial resolution and accuracy in air quality monitoring. The model incorporates a multi-scale attention U-Net for spatial downscaling, a Graph Convolutional Network (GCN) to handle spatial dependencies and meteorological data, and a federated learning framework for privacy-preserving distributed training.
+
+
+
 ## 1. Introduction
 
 Air quality monitoring is crucial for public health and environmental management. Current satellite-based methods face significant limitations:
